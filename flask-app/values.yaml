@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: jaweewo/flask-ejemplo
+  tag: "1.2"
+
+config:
+  dbHost: postgres-service
+  dbPort: "5432"
+  dbName: testdb
+  dbUser: postgres
+
+secret:
+  name: postgres-secret
+  key: POSTGRES_PASSWORD
+
+service:
+  nodePort: 30080
