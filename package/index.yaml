@@ -3,23 +3,23 @@ entries:
   bbdd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-05T17:56:14.8043222+01:00"
+    created: "2025-08-05T18:06:11.6274077+01:00"
     description: A Helm chart for Kubernetes
     digest: 8f62342db72750ef4bccf9a2811cfdfd481ec2d8b80a280060db4925a5dac170
     name: bbdd
     type: application
     urls:
-    - https://github.com/jaweewo/flask-ejemplo/bbdd-0.1.0.tgz
+    - bbdd-0.1.0.tgz
     version: 0.1.0
   flask-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-05T17:56:14.8053978+01:00"
+    created: "2025-08-05T18:06:11.6274077+01:00"
     description: A Helm chart for Kubernetes
     digest: c5f8da169e1acb76f7e893c57c13fac966cf63463fbc8e49de877216beedaf46
     name: flask-app
     type: application
     urls:
-    - https://github.com/jaweewo/flask-ejemplo/flask-app-0.1.0.tgz
+    - flask-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-05T17:56:14.803807+01:00"
+generated: "2025-08-05T18:06:11.6274077+01:00"
